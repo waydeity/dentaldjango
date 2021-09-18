@@ -88,7 +88,7 @@
                     <ul class="dropdown">
                       <li><a href="{% url 'home' %}">- Home</a></li>
                       <li><a href="{% url 'about' %}">- About Us</a></li>
-                      <li><a href="service.html">- Service</a></li>
+                      <li><a href="{% url 'service' %}">- Service</a></li>
                       <li><a href="pricing.html">- Pricing</a></li>
                       <li><a href="blog.html">- Blog</a></li>
                       <li><a href="blog-details.html">- Blog Details</a></li>
@@ -111,7 +111,7 @@
                     </ul>
                   </li>
                   <li><a href="{% url 'about' %}">About</a></li>
-                  <li><a href="service.html">Service</a></li>
+                  <li><a href="{% url 'service' %}">Service</a></li>
                   <li><a href="pricing.html">Pricing</a></li>
                   <li><a href="#">Blog</a>
                     <ul class="dropdown">
@@ -791,7 +791,7 @@
                 <li><a href="#">Advisors</a></li>
                 <li><a href="#">Careers</a></li>
                 <li><a href="#">Dentist</a></li>
-                <li><a href="#">Services</a></li>
+                <li><a href="{% url 'service' %}">Services</a></li>
                 <li><a href="#">Legals</a></li>
               </ul>
             </nav>
