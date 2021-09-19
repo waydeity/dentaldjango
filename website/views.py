@@ -8,3 +8,6 @@ def about(request):
 
 def service(request):
 	return render(request, 'service.html', {})
+
+def pricing(request):
+	return render(request, 'pricing.html', {})
