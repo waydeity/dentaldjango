@@ -89,7 +89,7 @@
                       <li><a href="{% url 'service' %}">- Service</a></li>
                       <li><a href="{% url 'pricing' %}">- Pricing</a></li>
                       <li><a href="{% url 'blog' %}">- Blog</a></li>
-                      <li><a href="blog-details.html">- Blog Details</a></li>
+                      <li><a href="{% url 'blogDetails' %}">- Blog Details</a></li>
                       <li><a href="contact.html">- Contact</a></li>
                       <li><a href="#">- Dropdown</a>
                         <ul class="dropdown">
@@ -114,7 +114,7 @@
                   <li><a href="#">Blog</a>
                     <ul class="dropdown">
                       <li><a href="{% url 'blog' %}">- Blog</a></li>
-                      <li><a href="blog-details.html">- Blog Details</a></li>
+                      <li><a href="{% url 'blogDetails' %}">- Blog Details</a></li>
                     </ul>
                   </li>
                   <li><a href="./contact.html">Contact</a></li>
@@ -168,13 +168,13 @@
           <div class="single-blog-item style-2 d-flex flex-wrap align-items-center mb-50">
             <!-- Blog Thumbnail -->
             <div class="blog-thumbnail">
-              <a href="./blog-details.html">
+              <a href="{% url 'blogDetails' %}">
                 <img src="{% static 'website/img/bg-img/16.jpg' %}" alt="">
               </a>
             </div>
             <!-- Blog Content -->
             <div class="blog-content">
-              <a href="./blog-details.html" class="post-title">How your mouth bacteria can harm your lungs</a>
+              <a href="{% url 'blogDetails' %}" class="post-title">How your mouth bacteria can harm your lungs</a>
               <p>Donec tempor, lorem et euismod eleifend, est lectus laoreet ante, sed accusan justo diam nec tincidunt interdum ante consectetur dapibus molestie ...</p>
               <div class="post-meta">
                 <a href="#"><i class="icon_clock_alt"></i> 28 Sep 2018</a>
@@ -187,13 +187,13 @@
           <div class="single-blog-item style-2 d-flex flex-wrap align-items-center mb-50">
             <!-- Blog Thumbnail -->
             <div class="blog-thumbnail">
-              <a href="./blog-details.html">
+              <a href="{% url 'blogDetails' %}">
                 <img src="{% static 'website/img/bg-img/17.jpg' %}" alt="">
               </a>
             </div>
             <!-- Blog Content -->
             <div class="blog-content">
-              <a href="./blog-details.html" class="post-title">What is the best kind of toothpaste to use?</a>
+              <a href="{% url 'blogDetails' %}" class="post-title">What is the best kind of toothpaste to use?</a>
               <p>Donec tempor, lorem et euismod eleifend, est lectus laoreet ante, sed accusan justo diam nec tincidunt interdum ante consectetur dapibus molestie ...</p>
               <div class="post-meta">
                 <a href="#"><i class="icon_clock_alt"></i> 28 Sep 2018</a>
@@ -212,7 +212,7 @@
             </div>
             <!-- Blog Content -->
             <div class="blog-content">
-              <a href="./blog-details.html" class="post-title">Why you should avoid sipping your drinks</a>
+              <a href="{% url 'blogDetails' %}" class="post-title">Why you should avoid sipping your drinks</a>
               <p>Donec tempor, lorem et euismod eleifend, est lectus laoreet ante, sed accusan justo diam nec tincidunt interdum ante consectetur dapibus molestie ...</p>
               <div class="post-meta">
                 <a href="#"><i class="icon_clock_alt"></i> 28 Sep 2018</a>
@@ -231,7 +231,7 @@
             </div>
             <!-- Blog Content -->
             <div class="blog-content">
-              <a href="./blog-details.html" class="post-title">How long does numbness last after the dentist?</a>
+              <a href="{% url 'blogDetails' %}" class="post-title">How long does numbness last after the dentist?</a>
               <p>Donec tempor, lorem et euismod eleifend, est lectus laoreet ante, sed accusan justo diam nec tincidunt interdum ante consectetur dapibus molestie ...</p>
               <div class="post-meta">
                 <a href="#"><i class="icon_clock_alt"></i> 28 Sep 2018</a>
@@ -244,13 +244,13 @@
           <div class="single-blog-item style-2 d-flex flex-wrap align-items-center mb-50">
             <!-- Blog Thumbnail -->
             <div class="blog-thumbnail">
-              <a href="./blog-details.html">
+              <a href="{% url 'blogDetails' %}">
                 <img src="{% static 'website/img/bg-img/20.jpg' %}" alt="">
               </a>
             </div>
             <!-- Blog Content -->
             <div class="blog-content">
-              <a href="./blog-details.html" class="post-title">Lie bumps (transient lingual papillitis): What to know</a>
+              <a href="{% url 'blogDetails' %}" class="post-title">Lie bumps (transient lingual papillitis): What to know</a>
               <p>Donec tempor, lorem et euismod eleifend, est lectus laoreet ante, sed accusan justo diam nec tincidunt interdum ante consectetur dapibus molestie ...</p>
               <div class="post-meta">
                 <a href="#"><i class="icon_clock_alt"></i> 28 Sep 2018</a>
