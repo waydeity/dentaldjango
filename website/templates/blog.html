@@ -1,5 +1,4 @@
-{% load static %}
-
+{% load static %} 
 <!DOCTYPE html>
 <html lang="en">
 
@@ -112,7 +111,7 @@
                   <li><a href="{% url 'about' %}">About</a></li>
                   <li><a href="{% url 'service' %}">Service</a></li>
                   <li><a href="{% url 'pricing' %}">Pricing</a></li>
-                  <li><a href="{% url 'blog' %}">Blog</a>
+                  <li><a href="#">Blog</a>
                     <ul class="dropdown">
                       <li><a href="{% url 'blog' %}">- Blog</a></li>
                       <li><a href="blog-details.html">- Blog Details</a></li>
@@ -138,7 +137,7 @@
     <div class="container h-100">
       <div class="row h-100 align-items-center">
         <div class="col-12">
-          <h2 class="title">About Us</h2>
+          <h2 class="title">Blog</h2>
         </div>
       </div>
     </div>
@@ -150,7 +149,7 @@
           <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
               <li class="breadcrumb-item"><a href="{% url 'home' %}"><i class="fa fa-home"></i> Home</a></li>
-              <li class="breadcrumb-item active" aria-current="page">About Us</li>
+              <li class="breadcrumb-item active" aria-current="page">Blog</li>
             </ol>
           </nav>
         </div>
@@ -159,246 +158,192 @@
   </div>
   <!-- ***** Breadcrumb Area End ***** -->
 
-  <!-- ****** About Us Area Start ******* -->
-  <section class="dento-about-us-area mt-70">
+  <!-- *****Blog Area Start ***** -->
+  <section class="dento-blog-area mt-50">
     <div class="container">
-      <div class="row align-items-center">
-        <!-- About Us Thumbnail -->
-        <div class="col-12 col-md-6">
-          <div class="about-us-thumbnail mb-50">
-            <img src="{% static 'website/img/bg-img/15.jpg' %}" alt="">
+      <div class="row">
+        <div class="col-12 col-lg-8">
+
+          <!-- Single Blog Item -->
+          <div class="single-blog-item style-2 d-flex flex-wrap align-items-center mb-50">
+            <!-- Blog Thumbnail -->
+            <div class="blog-thumbnail">
+              <a href="./blog-details.html">
+                <img src="{% static 'website/img/bg-img/16.jpg' %}" alt="">
+              </a>
+            </div>
+            <!-- Blog Content -->
+            <div class="blog-content">
+              <a href="./blog-details.html" class="post-title">How your mouth bacteria can harm your lungs</a>
+              <p>Donec tempor, lorem et euismod eleifend, est lectus laoreet ante, sed accusan justo diam nec tincidunt interdum ante consectetur dapibus molestie ...</p>
+              <div class="post-meta">
+                <a href="#"><i class="icon_clock_alt"></i> 28 Sep 2018</a>
+                <a href="#"><i class="icon_chat_alt"></i> 3 Comments</a>
+              </div>
+            </div>
           </div>
+
+          <!-- Single Blog Item -->
+          <div class="single-blog-item style-2 d-flex flex-wrap align-items-center mb-50">
+            <!-- Blog Thumbnail -->
+            <div class="blog-thumbnail">
+              <a href="./blog-details.html">
+                <img src="{% static 'website/img/bg-img/17.jpg' %}" alt="">
+              </a>
+            </div>
+            <!-- Blog Content -->
+            <div class="blog-content">
+              <a href="./blog-details.html" class="post-title">What is the best kind of toothpaste to use?</a>
+              <p>Donec tempor, lorem et euismod eleifend, est lectus laoreet ante, sed accusan justo diam nec tincidunt interdum ante consectetur dapibus molestie ...</p>
+              <div class="post-meta">
+                <a href="#"><i class="icon_clock_alt"></i> 28 Sep 2018</a>
+                <a href="#"><i class="icon_chat_alt"></i> 3 Comments</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Single Blog Item -->
+          <div class="single-blog-item style-2 d-flex flex-wrap align-items-center mb-50">
+            <!-- Blog Thumbnail -->
+            <div class="blog-thumbnail">
+              <a href="./blog-details.html">
+                <img src="{% static 'website/img/bg-img/18.jpg' %}" alt="">
+              </a>
+            </div>
+            <!-- Blog Content -->
+            <div class="blog-content">
+              <a href="./blog-details.html" class="post-title">Why you should avoid sipping your drinks</a>
+              <p>Donec tempor, lorem et euismod eleifend, est lectus laoreet ante, sed accusan justo diam nec tincidunt interdum ante consectetur dapibus molestie ...</p>
+              <div class="post-meta">
+                <a href="#"><i class="icon_clock_alt"></i> 28 Sep 2018</a>
+                <a href="#"><i class="icon_chat_alt"></i> 3 Comments</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Single Blog Item -->
+          <div class="single-blog-item style-2 d-flex flex-wrap align-items-center mb-50">
+            <!-- Blog Thumbnail -->
+            <div class="blog-thumbnail">
+              <a href="./blog-details.html">
+                <img src="{% static 'website/img/bg-img/19.jpg' %}" alt="">
+              </a>
+            </div>
+            <!-- Blog Content -->
+            <div class="blog-content">
+              <a href="./blog-details.html" class="post-title">How long does numbness last after the dentist?</a>
+              <p>Donec tempor, lorem et euismod eleifend, est lectus laoreet ante, sed accusan justo diam nec tincidunt interdum ante consectetur dapibus molestie ...</p>
+              <div class="post-meta">
+                <a href="#"><i class="icon_clock_alt"></i> 28 Sep 2018</a>
+                <a href="#"><i class="icon_chat_alt"></i> 3 Comments</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Single Blog Item -->
+          <div class="single-blog-item style-2 d-flex flex-wrap align-items-center mb-50">
+            <!-- Blog Thumbnail -->
+            <div class="blog-thumbnail">
+              <a href="./blog-details.html">
+                <img src="{% static 'website/img/bg-img/20.jpg' %}" alt="">
+              </a>
+            </div>
+            <!-- Blog Content -->
+            <div class="blog-content">
+              <a href="./blog-details.html" class="post-title">Lie bumps (transient lingual papillitis): What to know</a>
+              <p>Donec tempor, lorem et euismod eleifend, est lectus laoreet ante, sed accusan justo diam nec tincidunt interdum ante consectetur dapibus molestie ...</p>
+              <div class="post-meta">
+                <a href="#"><i class="icon_clock_alt"></i> 28 Sep 2018</a>
+                <a href="#"><i class="icon_chat_alt"></i> 3 Comments</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Pagination -->
+          <nav class="dento-pagination mb-100">
+            <ul class="pagination">
+              <li class="page-item active"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#"><i class="fa fa-angle-right"></i></a></li>
+            </ul>
+          </nav>
         </div>
-        <!-- About Content -->
-        <div class="col-12 col-md-6">
-          <div class="about-us-content mb-50">
-            <!-- Section Heading -->
-            <div class="section-heading">
-              <h2>About Us</h2>
-              <div class="line"></div>
-            </div>
-            <p>Vestibulum condimentum, risus sedones honcus rutrum, salah lacus mollis zurna, nec finibusmi velit advertisis. Proin vitae odin quis magna aliquet laciniae. Etiam auctor, nisi vel. Pellentesque ultrices nisl quam iaculis, nec pulvinar
-              augue.</p>
 
-            <!-- Single Skills Area -->
-            <div class="single-skills-area mt-30">
-              <h6>Experience Dentist</h6>
-              <div id="bar1" class="barfiller">
-                <span class="tip"></span>
-                <span class="fill" data-percentage="80"></span>
+        <!-- Dento Sidebar Area -->
+        <div class="col-12 col-lg-4">
+          <div class="dento-sidebar">
+
+            <!-- Single Widget Area -->
+            <div class="single-widget-area search-widget">
+              <form action="#" method="post">
+                <input type="search" name="search" class="form-control" placeholder="Search ...">
+                <button type="submit"><i class="icon_search"></i></button>
+              </form>
+            </div>
+
+            <!-- Single Widget Area -->
+            <div class="single-widget-area catagories-widget">
+              <h5 class="widget-title">Categories</h5>
+
+              <!-- catagories list -->
+              <ul class="catagories-list">
+                <li><a href="#">Dentistry Articles</a></li>
+                <li><a href="#">Oral Health</a></li>
+                <li><a href="#">Dental Technology</a></li>
+                <li><a href="#">Kids Care Dental</a></li>
+                <li><a href="#">Healthy Smiles, Inside &amp; Out</a></li>
+              </ul>
+            </div>
+
+            <!-- Single Widget Area -->
+            <div class="single-widget-area news-widget">
+              <h5 class="widget-title">Recent News</h5>
+
+              <!-- Single News Area -->
+              <div class="single-news-area d-flex align-items-center">
+                <div class="blog-thumbnail">
+                  <img src="{% static 'website/img/bg-img/21.jpg' %}" alt="">
+                </div>
+                <div class="blog-content">
+                  <a href="#" class="post-title">Tooth decay: why good dental hygiene is important</a>
+                  <span class="post-date">28 Sep 2018</span>
+                </div>
+              </div>
+
+              <!-- Single News Area -->
+              <div class="single-news-area d-flex align-items-center">
+                <div class="blog-thumbnail">
+                  <img src="{% static 'website/img/bg-img/22.jpg' %}" alt="">
+                </div>
+                <div class="blog-content">
+                  <a href="#" class="post-title">Six reasons your breath might smell like poop</a>
+                  <span class="post-date">28 Sep 2018</span>
+                </div>
+              </div>
+
+              <!-- Single News Area -->
+              <div class="single-news-area d-flex align-items-center">
+                <div class="blog-thumbnail">
+                  <img src="{% static 'website/img/bg-img/23.jpg' %}" alt="">
+                </div>
+                <div class="blog-content">
+                  <a href="#" class="post-title">Everything you need to know about sinus infection</a>
+                  <span class="post-date">28 Sep 2018</span>
+                </div>
               </div>
             </div>
 
-            <!-- Single Skills Area -->
-            <div class="single-skills-area mt-30">
-              <h6>Modern Equipment</h6>
-              <div id="bar2" class="barfiller">
-                <span class="tip"></span>
-                <span class="fill" data-percentage="65"></span>
-              </div>
+            <!-- Single Widget Area -->
+            <div class="single-widget-area adds-widget">
+              <a href="#"><img class="w-100" src="{% static 'website/img/bg-img/adds.png' %}" alt=""></a>
             </div>
 
-            <!-- Single Skills Area -->
-            <div class="single-skills-area mt-30">
-              <h6>Friendly Staff</h6>
-              <div id="bar3" class="barfiller">
-                <span class="tip"></span>
-                <span class="fill" data-percentage="85"></span>
-              </div>
-            </div>
           </div>
         </div>
       </div>
     </div>
   </section>
-  <!-- ****** About Us Area End ****** -->
-
-  <div class="container">
-    <div class="dento-border clearfix"></div>
-  </div>
-
-  <!-- Cool Facts Area Start -->
-  <section class="dento-cta-area">
-    <div class="container">
-      <div class="row">
-        <!-- Cool Facts Area -->
-        <div class="col-12 col-sm-6 col-lg-3">
-          <div class="single-cta text-center mt-50 mb-100">
-            <i class="icon_genius"></i>
-            <h2><span class="counter">20</span></h2>
-            <h5>Years Of Experience</h5>
-          </div>
-        </div>
-
-        <!-- Cool Facts Area -->
-        <div class="col-12 col-sm-6 col-lg-3">
-          <div class="single-cta text-center mt-50 mb-100">
-            <i class="icon_heart_alt"></i>
-            <h2><span class="counter">700</span>+</h2>
-            <h5>Happy Patients</h5>
-          </div>
-        </div>
-
-        <!-- Cool Facts Area -->
-        <div class="col-12 col-sm-6 col-lg-3">
-          <div class="single-cta text-center mt-50 mb-100">
-            <i class="icon_book_alt"></i>
-            <h2><span class="counter">120</span></h2>
-            <h5>Certificate</h5>
-          </div>
-        </div>
-
-        <!-- Cool Facts Area -->
-        <div class="col-12 col-sm-6 col-lg-3">
-          <div class="single-cta text-center mt-50 mb-100">
-            <i class="icon_id"></i>
-            <h2><span class="counter">40</span>+</h2>
-            <h5>Dentist</h5>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- Cool Facts Area End -->
-
-  <!-- ***** Testimonials Area Start ***** -->
-  <section class="testimonials-area section-padding-100 bg-img bg-gradient-overlay jarallax clearfix" style="background-image: url('{% static 'website/img/bg-img/7.jpg' %}');">
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <!-- Testimonials Slides -->
-          <div class="testimonials-slides owl-carousel">
-            <!-- Single Testimonials Slide -->
-            <div class="single-testimonial-slide d-flex align-items-center">
-              <!-- Thumbnail -->
-              <div class="testimonial-thumb">
-                <img src="{% static 'website/img/bg-img/8.jpg' %}" alt="">
-              </div>
-              <!-- Content -->
-              <div class="testimonial-content">
-                <h5>“I'd been avoiding the dentist for years due to bad experiences. A reminder SMS is sent the working day beforehand. I also had a call confirming appointment. I have been a patient ever since. My dentist is very reassuring and
-                  very helpful. Excellent treatment and advice.”</h5>
-                <h6>Arron Ramsey</h6>
-                <p>Dental Patient</p>
-              </div>
-            </div>
-
-            <!-- Single Testimonials Slide -->
-            <div class="single-testimonial-slide d-flex align-items-center">
-              <!-- Thumbnail -->
-              <div class="testimonial-thumb">
-                <img src="{% static 'website/img/bg-img/8.jpg' %}" alt="">
-              </div>
-              <!-- Content -->
-              <div class="testimonial-content">
-                <h5>“I'd been avoiding the dentist for years due to bad experiences. A reminder SMS is sent the working day beforehand. I also had a call confirming appointment. I have been a patient ever since. My dentist is very reassuring and
-                  very helpful. Excellent treatment and advice.”</h5>
-                <h6>Arron Ramsey</h6>
-                <p>Dental Patient</p>
-              </div>
-            </div>
-
-            <!-- Single Testimonials Slide -->
-            <div class="single-testimonial-slide d-flex align-items-center">
-              <!-- Thumbnail -->
-              <div class="testimonial-thumb">
-                <img src="{% static 'website/img/bg-img/8.jpg' %}" alt="">
-              </div>
-              <!-- Content -->
-              <div class="testimonial-content">
-                <h5>“I'd been avoiding the dentist for years due to bad experiences. A reminder SMS is sent the working day beforehand. I also had a call confirming appointment. I have been a patient ever since. My dentist is very reassuring and
-                  very helpful. Excellent treatment and advice.”</h5>
-                <h6>Arron Ramsey</h6>
-                <p>Dental Patient</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- ***** Testimonials Area End ***** -->
-
-  <!-- ***** Dento Dentist Area Start ***** -->
-  <section class="dentist-area section-padding-100-0">
-    <div class="container">
-      <div class="row">
-        <!-- Section Heading -->
-        <div class="col-12">
-          <div class="section-heading text-center">
-            <h2>Our Dentist</h2>
-            <div class="line"></div>
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <!-- Single Dentist Area -->
-        <div class="col-12 col-sm-6 col-md-4">
-          <div class="single-dentist-area mb-100">
-            <img src="{% static 'website/img/bg-img/9.png' %}" alt="">
-            <!-- Dentist Content -->
-            <div class="dentist-content">
-              <!-- Social Info -->
-              <div class="dentist-social-info">
-                <a href="#"><i class="fa fa-facebook"></i></a>
-                <a href="#"><i class="fa fa-twitter"></i></a>
-                <a href="#"><i class="fa fa-google-plus"></i></a>
-              </div>
-              <!-- Dentist Info -->
-              <div class="dentist-info bg-gradient-overlay">
-                <h5>Michael Barley</h5>
-                <p>Implant Expert</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Single Dentist Area -->
-        <div class="col-12 col-sm-6 col-md-4">
-          <div class="single-dentist-area mb-100">
-            <img src="{% static 'website/img/bg-img/10.png' %}" alt="">
-            <!-- Dentist Content -->
-            <div class="dentist-content">
-              <!-- Social Info -->
-              <div class="dentist-social-info">
-                <a href="#"><i class="fa fa-facebook"></i></a>
-                <a href="#"><i class="fa fa-twitter"></i></a>
-                <a href="#"><i class="fa fa-google-plus"></i></a>
-              </div>
-              <!-- Dentist Info -->
-              <div class="dentist-info bg-gradient-overlay">
-                <h5>Michael Barley</h5>
-                <p>Implant Expert</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Single Dentist Area -->
-        <div class="col-12 col-sm-6 col-md-4">
-          <div class="single-dentist-area mb-100">
-            <img src="{% static 'website/img/bg-img/11.png' %}" alt="">
-            <!-- Dentist Content -->
-            <div class="dentist-content">
-              <!-- Social Info -->
-              <div class="dentist-social-info">
-                <a href="#"><i class="fa fa-facebook"></i></a>
-                <a href="#"><i class="fa fa-twitter"></i></a>
-                <a href="#"><i class="fa fa-google-plus"></i></a>
-              </div>
-              <!-- Dentist Info -->
-              <div class="dentist-info bg-gradient-overlay">
-                <h5>Michael Barley</h5>
-                <p>Implant Expert</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- ***** Dento Dentist Area End ***** -->
+  <!-- *****Blog Area End ***** -->
 
   <!-- ***** Footer Area Start ***** -->
   <footer class="footer-area bg-img bg-gradient-overlay" style="background-image: url({% static 'website/img/bg-img/3.jpg' %});">
@@ -503,21 +448,15 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 
   <!-- ******* All JS ******* -->
   <!-- jQuery js -->
-
-  <script src="
-{% static 'website/js/jquery.min.js' %}"></script>
+  <script src="{% static 'website/js/jquery.min.js' %}"></script>
   <!-- Popper js -->
-  <script src="
-{% static 'website/js/popper.min.js' %}"></script>
+  <script src="{% static 'website/js/popper.min.js' %}"></script>
   <!-- Bootstrap js -->
-  <script src="
-{% static 'website/js/bootstrap.min.js' %}"></script>
+  <script src="{% static 'website/js/bootstrap.min.js' %}"></script>
   <!-- All js -->
-  <script src="
-{% static 'website/js/dento.bundle.js' %}"></script>
+  <script src="{% static 'website/js/dento.bundle.js' %}"></script>
   <!-- Active js -->
-  <script src="
-{% static 'website/js/default-assets/active.js' %}"></script>
+  <script src="{% static 'website/js/default-assets/active.js' %}"></script>
 
 </body>
 

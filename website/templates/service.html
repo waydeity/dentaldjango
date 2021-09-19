@@ -88,8 +88,8 @@
                       <li><a href="{% url 'home' %}">- Home</a></li>
                       <li><a href="{% url 'about' %}">- About Us</a></li>
                       <li><a href="{% url 'service' %}">- Service</a></li>
-                      <li><a href="pricing.html">- Pricing</a></li>
-                      <li><a href="blog.html">- Blog</a></li>
+                      <li><a href="{% url 'pricing' %}">- Pricing</a></li>
+                      <li><a href="{% url 'blog' %}">- Blog</a></li>
                       <li><a href="blog-details.html">- Blog Details</a></li>
                       <li><a href="contact.html">- Contact</a></li>
                       <li><a href="#">- Dropdown</a>
@@ -111,10 +111,10 @@
                   </li>
                   <li><a href="{% url 'about' %}">About</a></li>
                   <li><a href="{% url 'service' %}">Service</a></li>
-                  <li><a href="pricing.html">Pricing</a></li>
-                  <li><a href="#">Blog</a>
+                  <li><a href="{% url 'pricing' %}">Pricing</a></li>
+                  <li><a href="{% url 'blog' %}">Blog</a>
                     <ul class="dropdown">
-                      <li><a href="blog.html">- Blog</a></li>
+                      <li><a href="{% url 'blog' %}">- Blog</a></li>
                       <li><a href="blog-details.html">- Blog Details</a></li>
                     </ul>
                   </li>
