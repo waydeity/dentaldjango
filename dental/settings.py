@@ -117,3 +117,24 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static'),
 ]
+'''
+
+# Email service with gmail
+EMAIL_HOST = 'smtp.google.com' #'smtp.gmail.com'
+EMAIL_PORT = 857
+EMAIL_HOST_USER = 'drj@gmail.com'
+EMAIL_HOST_PASSWORD = 'drPassword' # Use environmental variable here instead op password.
+EMAIL_USE_TLS = True
+EMAIL_USE_SSL = False
+
+'''
+
+# python -m smtpd -n -c DebuggingServer localhost:1025
+EMAIL_HOST = 'localhost'
+EMAIL_PORT = 1025
+EMAIL_HOST_USER = ''
+EMAIL_HOST_PASSWORD = ''
+EMAIL_USE_TLS = False
+
+
+
